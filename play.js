@@ -17,7 +17,7 @@ const connect = function () {
   });
   
   conn.on("data", (data) => {
-    // code that does something when the connection is first established
+    // code that does something when reicived data
     console.log( data,'data recieved')
   });
   return conn;
